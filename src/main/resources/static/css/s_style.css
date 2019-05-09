@@ -1,0 +1,47 @@
+.container.bar { position: absolute; width: 42px; height: 29px; z-index: 999; background-color: transparent; border-right: 1px solid #e2e7ec; border-bottom: 1px solid #e2e7ec; text-align: center;}
+.container.bar:hover { background-color: #ddd;}
+.container.bar .left_open i { margin: 0 auto; width: 42px; height: 29px; color: #4b98dc; font-weight: bold;}
+.left_open.mune { width: 36px; height: 36px; position: absolute; z-index: 999;}
+.left_open.mune i { color: #000;}
+.tool .layui-tab-title { padding-left: 0;}
+
+.left-nav { top: 0; padding-top: 0;}
+
+.logo_img { height: 85px; background: #0785fd; text-align: center; display: table; width: 100%;}
+.logo_img p { display: table-cell; height: 100%; vertical-align: middle;}
+
+.slide_bar { width: 12px; height: 49px; background: url(../images/slide_bar.png) no-repeat left center; position: absolute; top: 50%; margin-top: -25px; z-index: 999; cursor: pointer;}
+.slide_bar.right_g { background-position: right center;}
+
+.top_man { position: relative; width: 100%; height: 55px; border-bottom: 1px solid #e2e7ec; z-index: 999;}
+.top_man .title { display: inline-block; color: #0785fd; font-size: 24px; line-height: 55px; padding-left: 42px;}
+
+
+
+.left-nav #nav > li > a{
+	background: url(../images/nav_li.png) no-repeat -234px center;
+	transition: all .3s;
+}
+.left-nav #nav > li:hover > a,
+.left-nav #nav > li.open > a{
+	background: url(../images/nav_li-on.png) no-repeat right center;
+}
+.left-nav #nav > li:hover > a cite,
+.left-nav #nav > li.open > a cite{
+	color: #fff;
+}
+.left-nav #nav > li:hover > a i:first-child,
+.left-nav #nav > li.open > a i:first-child{
+	color: #fff;
+}
+.left-nav #nav li .sub-menu li .sub-menu li {
+	border-bottom: 0;
+}
+
+/*头部搜索*/
+.bw_top_head .layui-nav .layui-nav-item { line-height: 55px;}
+
+
+.gaid_con { margin-left: -5px; margin-right: -5px;}
+.gaid_pad { padding: 0 5px;}
+

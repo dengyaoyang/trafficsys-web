@@ -1,0 +1,32 @@
+.bw_head .layui-nav { background: none;}
+.bw_head .layui-nav-bar,
+.layui-bg-black {
+  background-color: #1f6dc0 !important;
+}
+.bw_head .layui-nav-bar {
+  height: 1px;
+}
+
+.bw_head{height: 55px; line-height: 55px; font-size: 12px;}
+.bw_head .layui-nav .layui-nav-item{height: 55px; line-height: 55px;}
+.bw_head .layui-nav .layui-nav-item a{height: 100%; padding: 0px 13px;}
+.layui-body.dang_body,
+.bw_head .layui-layout-left, .nepadmin-tabs-wrap.dang_tabs .nepadmin-tabs-a{left: 200px;}
+.nepadmin-tabs-wrap.dang_tabs .nepadmin-tabs-a{width: 43px;}
+.nepadmin-tabs-wrap.dang_tabs .nepadmin-tabs-action{width: 40px; height: 30px; line-height: 30px;}
+.nepadmin-tabs-wrap.dang_tabs .nepadmin-tabs-prev{left: 241px;}
+.nepadmin-tabs-wrap.dang_tabs .nepadmin-tabs-next{right: 0px;}
+.nepadmin-tabs-wrap.dang_tabs .nepadmin-tabs-menu{left: 250px !important; height: 30px; line-height: 30px;}
+.nepadmin-tabs-wrap.dang_tabs .nepadmin-tabs-menu li{line-height: 30px; height: 30px; float: left; position: relative;}
+.nepadmin-tabs-wrap.dang_tabs{top: 56px; border-bottom: 1px solid #ddd;}
+.title{color: #0785fd; font-size: 24px;}
+.dang_la_out li> a{height: 100%;}
+.dang_la_out .exit{background: url(../images/icon_top_exit.png) no-repeat center center; display: block; width: 28px; height: 100%;}
+.dang_la_out .shezhi{background: url(../images/icon_top_s.png) no-repeat center center; display: block; width: 20px; height: 100%;}
+.dang_la_out .mess{background: url(../images/icon_top_t.png) no-repeat center center; display: block; width: 20px; height: 100%; position: relative;}
+.dang_la_out .mess .mess_num{display: block; font-weight: normal; position: absolute;color: #fff; text-align: center; width: 16px; height: 16px; line-height: 16px; border-radius: 8px; background: #ff634d; top: 8px; right: -6px;}
+.dang_la_out .user{background: url(../images/icon_top_u.png) no-repeat center center; display:inline-block; width: 20px; height: 100%; margin: 0px;}
+.dang_la_out .text{color: #888; display: inline-block; vertical-align: top;}
+.dang_la_out .input-s{width: 193px; font-size: 12px; box-sizing: border-box; height: 26px; border-radius: 13px; background: #f8fbfc; color: #888; padding: 0px 30px 0px 16px; border: 1px solid #eeeeee; }
+.dang_la_out .label{position: relative; height: 100%; display:block; }
+.dang_la_out .but_s{width: 26px; height: 26px; border: none; background: url(../images/icon_top_search.png) no-repeat center center; position: absolute; right: 15px; top: 14px; cursor: pointer;}

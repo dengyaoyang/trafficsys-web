@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>欢迎页面-X-admin2.0</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="../statics/css/font.css">
+	<link rel="stylesheet" href="../statics/css/OverlayScrollbars.css" />
+	<link rel="stylesheet" href="../statics/css/xadmin.css">
+	<link rel="stylesheet" href="../statics/css/s_style.css">
+	<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../statics/layui/layui.js" charset="utf-8"></script>
+	<script type="text/javascript" src="../statics/js/xadmin.js"></script>
+
+	<!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+	<!--[if lt IE 9]>
+      <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+      <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+	<div class="x-nav">
+			<span class="layui-breadcrumb">
+        <a href="">专题分析</a>
+        <a>
+          <cite>缉查布控</cite></a>
+      </span>
+			<a class="layui-btn layui-btn-small" style="line-height:1.3;margin-top:3px;float:right" href="javascript:location.replace(location.href);" title="刷新">
+				<i class="layui-icon" style="line-height:25px">ဂ</i></a>
+		</div>
+	<div class="x-body layui-anim layui-anim-up pd0">
+		
+		<div class="layui-row gaid_con">
+			<div class="layui-col-md12">
+					<div class="gaid_pad">
+						<fieldset class="layui-elem-field">
+							<div class="layui-field-box pd0 ">
+								<div class="box_mess">
+									<div class="layui-elem-field mr0">
+										<h1><span>布控车辆实时报警</span><button class="shou"><i class="iconfont">&#xe6a7;</i></button></h1>
+										<div class="layui-field-box pd0 group_b">
+											<div class="layui-row layui-form ">
+												<div class="layui-col-xs12">
+													<div class="layui-form-item dang_form_item">
+														<label class="layui-form-label dang_label">所属布控任务：</label>
+														<div class="layui-input-inline">
+												            <select name="contrller">
+												              <option>支付状态</option>
+												              <option>已支付</option>
+												              <option>未支付</option>
+												            </select>
+												          </div>
+													</div>
+												</div>
+												<div class="layui-col-xs12">
+													<div class="layui-form-item dang_form_item">
+														<label class="layui-form-label dang_label">所属采集点：</label>
+														<div class="layui-input-inline">
+												            <select name="contrller">
+												              <option>支付状态</option>
+												              <option>已支付</option>
+												              <option>未支付</option>
+												            </select>
+												          </div>
+													</div>
+												</div>
+												<div class="layui-col-xs12">
+													<div class="layui-form-item dang_form_item">
+														<label class="layui-form-label dang_label">刷新周期：</label>
+														<div class="layui-input-inline" style="width: 60px;">
+												            <select name="contrller">
+												              <option>6</option>
+												              <option>10</option>
+												              <option>15</option>
+												            </select>
+												          </div>
+												          <div class="layui-input-inline" style="width: 60px;">
+												            <input type="text"  placeholder="6" class="layui-input dang_input">
+												          </div>
+												          <span class="layui-form-span">秒</span>
+													</div>
+												</div>
+												<div class="layui-col-xs12">
+													<div class="tCenter">
+														<button class="but_b but_a2">查询</button>
+														<button class="but_b but_a2">清除</button>
+														<button class="but_b but_a2">启动</button>
+														<button class="but_b but_a2">停止</button>
+													</div>
+												</div>
+												
+											</div>
+											<div class="p_num_m"><i class="iconfont">&#xe6a2;</i> 共有 <span class="red">0</span> 辆报警车辆</div>
+											<table class="layui-table mr0" lay-even="" lay-skin="line">
+										<thead>
+											<tr>
+												<th width="25%">车牌号码</th>
+												<th width="25%">经过时间</th>
+												<th width="25%">采集点名称</th>
+												<th width="25%">操作</th>
+											</tr>
+										</thead>
+								</table>
+								<div style="height: 300px;" class="scroll_1">
+									<table class="layui-table mr0" lay-even="" lay-skin="line">			
+										<tbody>
+											<tr>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+											</tr>
+											<tr>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+											</tr>
+											<tr>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+											</tr>
+											<tr>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+											</tr>
+											<tr>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+											</tr>
+											<tr>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+											</tr>
+											<tr>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+											</tr>
+											<tr>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+											</tr>
+											<tr>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+											</tr>
+											<tr>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+												<td width="25%">1</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+										</div>
+									</div>
+								</div>
+								<div id="MinigrateChart" style="width: 100%;height:550px;"></div>
+							</div>
+						</fieldset>
+					</div>
+			</div>
+		</div>
+		
+		
+		
+		
+	</div>
+</body>
+<script type="text/javascript" src="../statics/js/jquery.overlayScrollbars.js" ></script>
+<script>
+$('.shou').click(function(){
+	$(this).toggleClass('n');
+	$('.box_mess').toggleClass('n')
+})
+	//滚动条
+	$(function() {
+				$('.scroll_1').overlayScrollbars({
+					className: "os-theme-round-dark",
+					resize: "both",
+					sizeAutoCapable: true,
+					paddingAbsolute: true
+				});
+//				console.log($('.os-scrollbar-vertical').eq(1));
+			});
+
+</script>
+	
+<script src="http://api.map.baidu.com/api?v=2.0&ak=53oVIOgmSIejwV7EfphPgTynOZbIiVYu"></script>
+<script type="text/javascript" src="../statics/js/echarts.js"></script>
+<script type="text/javascript" src="../statics/js/bmap.min.js"></script>
+<script type="text/javascript">
+	var map = new BMap.Map("MinigrateChart");
+			var point = new BMap.Point(92.60014, 32.572863); // 创建点坐标  
+			map.centerAndZoom(point, 5); // 初始化地图，设置中心点坐标和地图级别 
+			map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+			var myStyleJson = [
+          {
+                    "featureType": "all",
+                    "elementType": "geometry",
+                    "stylers": {
+                              "hue": "#007fff",
+                              "saturation": 89
+                    }
+          },
+          {
+                    "featureType": "water",
+                    "elementType": "all",
+                    "stylers": {
+                              "color": "#ffffff"
+                    }
+          },
+          {
+                    "featureType": "land",
+                    "elementType": "all",
+                    "stylers": {
+                              "color": "#1f3a5eff"
+                    }
+          },
+          {
+                    "featureType": "administrative",
+                    "elementType": "all",
+                    "stylers": {
+                              "color": "#f3f3f3ff"
+                    }
+          },
+          {
+                    "featureType": "administrative",
+                    "elementType": "labels.text.stroke",
+                    "stylers": {
+                              "color": "#0c3161ff"
+                    }
+          }
+];
+			map.setMapStyle({
+				styleJson: myStyleJson
+			});
+</script>	
+	
+
+</html>
